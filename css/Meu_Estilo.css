@@ -1,0 +1,11 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 18px ;
+
+
+}
+p::first-letter{
+    color: aliceblue;   
+    text-transform: uppercase; 
+}
