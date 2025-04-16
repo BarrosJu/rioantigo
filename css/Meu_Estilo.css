@@ -1,3 +1,10 @@
+.background  {
+    background-color: rgb(136, 123, 121);
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
 
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -10,7 +17,7 @@ p{
 body{
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: #fbfffb;
     color: #333;
     margin: 0;
     padding: 20px;
