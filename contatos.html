@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia do Rio Antigo</title>
+    <link href="css/Meu_Estilo.css" rel="stylesheet">
+    <link href="css/rioanitgo.css" rel="stylesheet">
+    <link href="css/menu_logo.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="caixa">
+            <h1 class=".hmenu">
+                <img src="img/rioicon_125x125.png" alt="Logo do site">
+            </h1>
+            <nav class="hmenu">
+                <ul>
+                    <li><a href="index.html" > Home </a></li>
+                    <li><a href="fotos.html" > Fotos </a></li>
+                    <li><a href="contatos.html" > Contatos </a></li>
+                    <li><a href="sobre.html" > Sobre </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="conteudo-principal">
+        <div class="titulo-principal">
+            <h2> Converse Conosco</h2>
+        </div>
+
+            <form name="frmContato" id="idContato" action="#" method="POST">
+              <div>
+                <label for="idNome">Nome</label>
+              </div>
+              <input id="idNome" type="text" name="nome" maxlength="70" placeholder="Digite seu nome" required>
+
+              <div>
+                <label for="idEmail"><E-mail></E-mail></label>
+              </div>
+              <input id="idEmail" type="email" name="email" maxlength="100" placeholder="Digite seu E-mail" required>
+
+              <div>
+                <label for="idTelefone">Teleofne</label>
+              </div>
+              <input id="idTelefone" type="tel" name="Teleofne" placeholder="Digite seu nome" required>
+              <div>
+                <label> Genero</label>
+              </div>
+              <input type="radio" name="genero" value="F" id="idGeneroF"><label for="idGeneroF">Feminino</label>
+              <input type="radio" name="genero" value="F" id="idGeneroM"><label for="idGeneroM">Masculino</label>
+              <input type="radio" name="genero" value="F" id="idGeneroO"><label for="idGeneroO">Outros</label>
+
+
+              <div>
+                <label id="idAssunto">Assunto</label>
+              </div>
+              <select nome="assunto" id="idAssunto">
+            
+                <option value="0">Selecione...</option>
+                <option value="E">Elogio</option>
+                <option value="C">Critica</option>
+                <option value="S">Solicitacao</option>
+                <option value="O">Outros</option>
+             </select>
+                <div>
+                    <label id="idMensagem">Assunto</label>
+                </div>
+                <textarea rows="10" cols="200" id="Mensagem" name="mensagem" placeholder="Preencha com a mensagem desejada"></textarea>
+
+                <div>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+                
+
+
+            </form>
+        </div>
+
+        
+    
+</main>
+<footer>
+    <p> Senac</p>
+    <p>fontes: Juliana da Silva Barros</p>
+    <p> E-mail: Eujulianabarros018@gmail.com </p>
+    <p> Contato: (21) 97555-6191</p>
+</footer>
+</body>
+</html>
