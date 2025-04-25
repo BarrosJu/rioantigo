@@ -7,6 +7,7 @@
     <link href="css/Meu_Estilo.css" rel="stylesheet">
     <link href="css/rioanitgo.css" rel="stylesheet">
     <link href="css/menu_logo.css" rel="stylesheet">
+    <link href="css/contato.css" rel="stylesheet">
 
 
 </head>
@@ -31,31 +32,38 @@
         <div class="titulo-principal">
             <h2> Converse Conosco</h2>
         </div>
+        <div class="divform">
 
             <form name="frmContato" id="idContato" action="#" method="POST">
-              <div>
+              <fieldset>
+              <div class="label">
                 <label for="idNome">Nome</label>
               </div>
               <input id="idNome" type="text" name="nome" maxlength="70" placeholder="Digite seu nome" required>
 
-              <div>
+              <div  class="label">
                 <label for="idEmail"><E-mail></E-mail></label>
               </div>
               <input id="idEmail" type="email" name="email" maxlength="100" placeholder="Digite seu E-mail" required>
 
-              <div>
+              <div  class="label">
                 <label for="idTelefone">Teleofne</label>
               </div>
               <input id="idTelefone" type="tel" name="Teleofne" placeholder="Digite seu nome" required>
-              <div>
+              <div  class="label">
                 <label> Genero</label>
               </div>
-              <input type="radio" name="genero" value="F" id="idGeneroF"><label for="idGeneroF">Feminino</label>
-              <input type="radio" name="genero" value="F" id="idGeneroM"><label for="idGeneroM">Masculino</label>
-              <input type="radio" name="genero" value="F" id="idGeneroO"><label for="idGeneroO">Outros</label>
+              <input type="radio" name="genero" value="F" id="idGeneroF" class="radio">
+              <label for="idGeneroF" class="label-radio">Feminino</label>
+
+              <input type="radio" name="genero" value="F" id="idGeneroM" class="radio">
+              <label for="idGeneroM" class="label-radio">Masculino</label>
+
+              <input type="radio" name="genero" value="F" id="idGeneroO" class="radio">
+              <label for="idGeneroO" class="label-radio">Outros</label>
 
 
-              <div>
+              <div  class="label">
                 <label id="idAssunto">Assunto</label>
               </div>
               <select nome="assunto" id="idAssunto">
@@ -66,16 +74,17 @@
                 <option value="S">Solicitacao</option>
                 <option value="O">Outros</option>
              </select>
-                <div>
+                <div  class="label">
                     <label id="idMensagem">Assunto</label>
                 </div>
-                <textarea rows="10" cols="200" id="Mensagem" name="mensagem" placeholder="Preencha com a mensagem desejada"></textarea>
+                <textarea rows="10" cols="200" id="Mensagem" name="mensagem" placeholder="Preencha com a mensagem desejada" class="minhatextarea"></textarea>
 
-                <div>
+                <div  class="buttons">
                     <input type="reset" value="Limpar">
                     <input type="submit" value="Enviar">
                 </div>
-                
+                </fieldset>
+            
 
 
             </form>
@@ -84,7 +93,7 @@
         
     
 </main>
-<footer>
+<footer class="rodape-principal">
     <p> Senac</p>
     <p>fontes: Juliana da Silva Barros</p>
     <p> E-mail: Eujulianabarros018@gmail.com </p>

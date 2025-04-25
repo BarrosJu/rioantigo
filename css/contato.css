@@ -1,0 +1,81 @@
+.divform{
+   
+    width: 940px;
+    background-color: rgb(56, 155, 212);
+    padding: 10px;
+}
+
+.divform fieldset {
+    border: none;
+}
+
+.label{
+    font-size: 20px;
+    padding: 8px 0 6px 0;
+    
+}
+
+.divform input[type=text],
+.divform input[type=email],
+.divform input[type=tel] {
+    width: 45%;
+    padding: 10px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+
+}
+
+.radio{
+    margin-left: 10px;
+}
+
+.label-radio{
+    display: inline;
+    padding-left: 6px;
+    font-size: 18px;
+}
+
+.divform select{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid rgb(24, 72, 177);
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgb(24, 72, 177);
+}
+
+.minhatextarea{
+    width: 800px;
+    padding: 10px;
+    resize: none;
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color:blanchedalmond ;
+}
+
+.buttons input[type=reset],
+.buttons input[type=submit] {
+    background-color: rgb(51, 75, 180);
+    color: aliceblue;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.buttons input[type=reset]:hover,
+.buttons input[type=submit]:hover {
+      background-color: aliceblue;
+      color: blue;
+}
+
