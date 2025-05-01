@@ -10,7 +10,7 @@
 
 
 .cabecalho{
-    background-color: #2980b9;
+    background-color:#5481a7;
     padding: 10px 0;
     width: 940px;
 }
@@ -46,8 +46,8 @@
 }
 
 .hmenu ul li a:hover{
-    color: rgb(224, 134, 30);
-    border-bottom:  1px solid rgb(224, 134, 30);
+    color: rgb(250, 247, 244);
+    border-bottom:  1px solid rgb(252, 252, 252);
 
 }
 
