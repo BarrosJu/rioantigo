@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="img/logo-rioantigo-ico.ico" rel="shortcut icon">
+  <link href="../img/logo-rioantigo-ico.ico" rel="shortcut icon">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -14,7 +14,7 @@
   <!-- Google  icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <link href="css/meu-estilo.css" rel="stylesheet">
+  <link href="../css/meu-estilo-bs.css" rel="stylesheet">
 
 </head>
 
@@ -25,7 +25,7 @@
   <header class="container">
     <div class="row border-bottom border-primary text-center bg-light">
         <div class="col">
-            <h1>Histórios do Rio Antigo</h1>
+           <h1> Histórias do Rio Antigo</h1>
         </div>
     </div>
 
@@ -43,38 +43,36 @@
   
   </header>
 
-  <main>
+  <main lass="container m-2 w-75 mx-auto my-font-family">
 
-    <section>
-
-      <div>
-
-        <div>
-          <h2>Sobre nós</h2>
+    <div  class="row">
+        <div class="col text-center m-0">
+            <h2 class="mt-2 mb-0 my-h2">
+                SObre Nós
+            </h2>
         </div>
+    </div>
 
-      </div>
 
       <!-- http://guiaculturalcentrodorio.com.br -->
-      <div>
+      <div class="row"> 
+        <div class="col-8 m-0">
         
-        <div>
-        
-          <div id="carrouselSobreNos">
+          <div id="carrouselSobreNos" class="carousel slide" data-ride="carousel">
 
-            <ol>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+            <ol class="carousel-indicatir">
+              <li data-targe="#carrouselSobreNos" data-slide-to="0" class="active"></li>
+              <li data-targe="#carrouselSobreNos" data-slide-to="1"></li>
+              <li data-targe="#carrouselSobreNos" data-slide-to="2" ></li>
+              <li data-targe="#carrouselSobreNos" data-slide-to="3"></li>
+              <li data-targe="#carrouselSobreNos" data-slide-to="4"></li>
             </ol>
 
-            <div>
+            <div class="carousel">
 
-              <div>
-                <img src="img/carrousel/camara-municipal.jpg" alt="Primeiro Slide">
-                <div>
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/carrousel/camara-municipal.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block text-warning">
                   <h5>Câmara Municipal</h5>
                   <p>Fonte: <span>Guia Cultural do Centro Histórico do Rio de Janeiro</span></p>
                 </div>
@@ -127,7 +125,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="col-4 m-0">
         
           <h4>Rio Antigo</h4>
           <div>
@@ -146,10 +144,6 @@
         </div>
 
       </div>
-
-    </section>
-
-
   </main>
 
   <footer class="container">
